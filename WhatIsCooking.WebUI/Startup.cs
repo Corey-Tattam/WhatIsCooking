@@ -6,11 +6,10 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.EntityFrameworkCore;
-using WhatIsCooking.WebUI.Data;
-using WhatIsCooking.WebUI.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using WhatIsCooking.Persistence;
 
 namespace WhatIsCooking.WebUI
 {

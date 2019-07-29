@@ -2,7 +2,7 @@ using System;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace WhatIsCooking.WebUI.Data.Migrations
+namespace WhatIsCooking.Persistence.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

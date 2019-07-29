@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WhatIsCooking.WebUI.Models
+namespace WhatIsCooking.Persistence
 {
     public class ApplicationUser : IdentityUser
     {
