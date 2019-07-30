@@ -15,12 +15,23 @@ namespace WhatIsCooking.WebUI
 {
     public class Startup
     {
+
+        #region " - - - - - - Constructors - - - - - - "
+
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            this.Configuration = configuration;
         }
 
+        #endregion //Constructors
+
+        #region " - - - - - - Properties - - - - - - "
+
         public IConfiguration Configuration { get; }
+
+        #endregion //Properties
+
+        #region " - - - - - - Methods - - - - - - "
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -85,5 +96,8 @@ namespace WhatIsCooking.WebUI
                 }
             });
         }
+
+        #endregion //Methods
+
     }
 }
